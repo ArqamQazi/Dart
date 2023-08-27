@@ -15,6 +15,7 @@ void main() {
   print(isChild);
   
   // dynamic (It can take any value)
+  // In many cases we will avoid using dynamic
   dynamic secondValue = 10.5;
   print(secondValue);
   
@@ -26,7 +27,7 @@ void main() {
   
 //Use interpolation to compose strings and values.
 //greeting = greeting + " Yoooo";
-  greeting = "$greeting Yooo";
+  greeting = "$greeting Yooo";  // this is called as ploishnotation
   print(greeting);
   
   // Multi line String 

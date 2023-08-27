@@ -6,10 +6,10 @@ void main() {
   switch(age) {
     case 18 when age >= 18:
       print("You are 18 years old!");
-    case 16:
-      print("You are 16 years old!");
-    case 17:
-      print("You are 17 year old");
+    case 15:
+      print("You are 15 years old!");
+    case 14:
+      print("You are 14 year old");
     defaul:
       print("I don't know your age.");
   }
